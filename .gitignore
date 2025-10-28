@@ -15,3 +15,4 @@ Thumbs.db
 # Ignore Perspective runtime generated files
 **/__pycache__/
 /*.bak
+#potato
