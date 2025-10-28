@@ -1,0 +1,17 @@
+# Ignore Ignition gateway-level data
+/data/
+
+/bin/
+/launchclient.jar
+/config.idb
+/ignition.conf
+/logs/
+/modules/
+/user-lib/cache/
+/user-lib/jython-cache/
+/projects/.DS_Store
+Thumbs.db
+
+# Ignore Perspective runtime generated files
+**/__pycache__/
+/*.bak
