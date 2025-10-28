@@ -1,0 +1,46 @@
+/* Direct stylesheet authoring is an advanced feature. Knowledge of CSS required.*/
+
+/*** NAVIGATION ***/
+:root {
+	--Navigation: rgb(49,58,70);
+	--Navigation-Selected: rgb(114,124,245);
+	--Navigation-Icon: rgb(131,145,162);
+	--Navigation-Icon-Selected: rgb(255,255,255);
+	--Navigation-Slider: rgb(58,68,78);
+	--Text-Normal: 12px;
+	
+}
+
+.psc-Navigation-Icon {
+	background-color: var(--Navigation);
+	color: var(--Navigation-Icon);
+	overflow: hidden !important;
+	font-size: var(--Text-Normal);
+	text-align: center;
+}
+
+.psc-Navigation-Icon:hover {
+	background-color: var(--Navigation-Selected);
+	color: var(--Navigation-Icon-Selected);
+	overflow: hidden !important;
+}
+
+.psc-Navigation-Slider-Header {
+	font-size:  var(--Text-Normal);
+	text-indent: 5px;
+	color: var(--Navigation-Icon-Selected);
+	background-color: var(--Navigation-Selected);
+}
+
+.psc-Navigation-Slider-Row {
+	padding-left: 10px;
+	text-indent: 5px;
+	color: var(--Navigation-Icon);
+	font-size: var(--Text-Normal);
+	background-color: var(--Navigation-Slider);
+	overflow: hidden !important;
+}
+
+.psc-Navigation-Slider-Row:hover {
+	color: var(--Navigation-Icon-Selected);
+}

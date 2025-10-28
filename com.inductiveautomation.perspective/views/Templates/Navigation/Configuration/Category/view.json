@@ -1,0 +1,102 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 60
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Dropdown"
+        },
+        "props": {
+          "placeholder": {
+            "icon": {
+              "path": "material/accessibility_new",
+              "style": {
+                "height": "26px",
+                "width": "26px"
+              }
+            },
+            "text": ""
+          },
+          "style": {
+            "border-radius": "calc(0.5rem - 2px)",
+            "margin": "0.75rem 0.75rem 0.75rem 0.75rem"
+          }
+        },
+        "type": "ia.input.dropdown"
+      },
+      {
+        "meta": {
+          "name": "TextField"
+        },
+        "position": {
+          "basis": "12rem",
+          "grow": 1,
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "border-radius": "calc(0.5rem - 2px)",
+            "margin": "0.5rem 0.75rem 0.5rem 0.75rem"
+          }
+        },
+        "type": "ia.input.text-field"
+      },
+      {
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "basis": "50px",
+          "shrink": 0
+        },
+        "props": {
+          "image": {
+            "icon": {
+              "path": "material/add"
+            }
+          },
+          "style": {
+            "background-color": "rgb(22,163,74)",
+            "border-radius": "calc(0.5rem - 2px)",
+            "margin": "0.75rem 0.75rem 0.75rem 0.75rem"
+          },
+          "text": ""
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "basis": "50px",
+          "shrink": 0
+        },
+        "props": {
+          "image": {
+            "icon": {
+              "path": "material/delete_forever"
+            }
+          },
+          "style": {
+            "background-color": "rgb(220,38,38)",
+            "border-radius": "calc(0.5rem - 2px)",
+            "margin": "0.75rem 0.75rem 0.75rem 0.75rem"
+          },
+          "text": ""
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.flex"
+  }
+}

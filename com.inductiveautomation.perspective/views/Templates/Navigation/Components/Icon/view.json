@@ -1,0 +1,48 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 65,
+      "width": 60
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "icnIcon"
+        },
+        "position": {
+          "grow": 1
+        },
+        "props": {
+          "path": "material/insert_emoticon"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "meta": {
+          "name": "lblName"
+        },
+        "position": {
+          "grow": 1
+        },
+        "props": {
+          "text": "Label"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "Navigation-Icon"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

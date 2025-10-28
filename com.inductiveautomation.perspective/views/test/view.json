@@ -1,0 +1,47 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "ChemicalSetpoints"
+        },
+        "position": {
+          "height": 504,
+          "width": 276,
+          "x": 135,
+          "y": 38
+        },
+        "props": {
+          "params": {
+            "Name": "value"
+          },
+          "path": "Collier/ChemicalSetpoints"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "Navigation"
+        },
+        "position": {
+          "height": "auto",
+          "width": "auto"
+        },
+        "props": {
+          "path": "Templates/Navigation/Navigation",
+          "style": {
+            "overflow": "visible"
+          }
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

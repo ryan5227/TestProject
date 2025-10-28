@@ -1,0 +1,66 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 75
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Dropdown"
+        },
+        "position": {
+          "height": 40,
+          "width": 69,
+          "x": 10,
+          "y": 17.5
+        },
+        "props": {
+          "placeholder": {
+            "icon": {
+              "path": "material/accessibility_new",
+              "style": {
+                "height": "30px",
+                "width": "30px"
+              }
+            },
+            "text": ""
+          },
+          "style": {
+            "border-radius": "0.5em"
+          }
+        },
+        "type": "ia.input.dropdown"
+      },
+      {
+        "meta": {
+          "name": "TextField"
+        },
+        "position": {
+          "height": 40,
+          "width": 369,
+          "x": 84,
+          "y": 17.5
+        },
+        "props": {
+          "style": {
+            "border-radius": "0.5em"
+          }
+        },
+        "type": "ia.input.text-field"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "background-color": "rgb(243,244,246)"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

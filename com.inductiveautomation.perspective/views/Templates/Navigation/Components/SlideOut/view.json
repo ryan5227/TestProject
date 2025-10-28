@@ -1,0 +1,87 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 250,
+      "width": 250
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "icnRow"
+            },
+            "position": {
+              "basis": "10%",
+              "shrink": 0
+            },
+            "props": {
+              "path": "material/insert_emoticon"
+            },
+            "type": "ia.display.icon"
+          },
+          {
+            "meta": {
+              "name": "lblName"
+            },
+            "position": {
+              "basis": "90%",
+              "grow": 1
+            },
+            "props": {
+              "text": "Label"
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "icnExpand"
+            },
+            "position": {
+              "basis": "10%",
+              "shrink": 0
+            },
+            "props": {
+              "path": "material/navigate_next"
+            },
+            "type": "ia.display.icon"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "35px",
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "classes": "Navigation-Slider-Row"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "FlexRepeater"
+        },
+        "position": {
+          "basis": "320px",
+          "display": false
+        },
+        "type": "ia.display.flex-repeater"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}
